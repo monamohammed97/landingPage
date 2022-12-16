@@ -113,6 +113,17 @@
     width: 85%;
     margin-bottom: 1rem !important;
   }
+  .card {
+    width: calc(90%/2);
+    margin-bottom: 2rem;
+  }
+  footer .footer{
+    height: 50px;
+  }
+  .icons .social{
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -162,6 +173,11 @@
     margin-bottom: 2rem;
     line-height: 1.7;
   }
+  
+  .card {
+    width: calc(95%/2);
+  }
+  
 }
 
 @media (max-width: 575.98px) {
@@ -204,7 +220,13 @@
   .section-three .img-s2 {
     min-height: auto;
   }
-
+  .card {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  
 }
 
 @media (max-width: 375.98px) {
@@ -241,5 +263,14 @@
     height: 300px;
     min-height: auto;
   }
-
+  footer{
+    height: 60px;
+  }
+  footer .footer{
+    height: 40px;
+  }
+  .icons .social{
+    width: 25px;
+    height: 25px;
+  }
 }

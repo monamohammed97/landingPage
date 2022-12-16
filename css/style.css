@@ -211,6 +211,9 @@ input {
   line-height: 1.7
 }
 
+.container-form button,
+.container-form button:hover,
+.container-form button:active,
 .section-six button,
 .section-six button:hover,
 .section-six button:active,
@@ -306,7 +309,133 @@ input {
   width: 48%;
 }
 
-.section-six button:hover ,
+.container-form button,
+.container-form button:hover,
+.container-form button:active,
+.section-six button:hover,
 .section-six button {
   height: 50px;
+}
+
+.card {
+  width: calc(90%/3);
+}
+
+.card .content-card {
+  height: 100px;
+  width: 100px;
+  background: #43C6BC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.card .content-card span {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.card .content-card .dolar {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 10px;
+  left: 15px;
+}
+
+.card .inner-price {
+  border: 2px solid #43C6BC;
+  border-radius: 50%;
+}
+
+.card h3:before,
+.card h3::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 30%;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 0;
+  background: #43C6BC;
+}
+
+.card h3 {
+  /*  new lines  */
+  max-width: 100%;
+  margin: .0px 0;
+  text-align: center;
+}
+
+.card h3:after {
+  right: 0;
+}
+
+.card.first {
+  border: 1px solid #43C6BC;
+  border-radius: 12px;
+  box-shadow: 0px 2px 3px #43c6bc5c;
+}
+
+.btn-card {
+  background-color: #43C6BC;
+  background-image: linear-gradient(90deg, #31b2a7, #43C6BC, #75d3cb, #96d7d2, #a1e6e0);
+  border: 0;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+footer {
+  height: 80px;
+}
+
+footer .footer {
+  height: 70px;
+  width: fit-content;
+}
+
+.footer img {
+  object-fit: contain;
+}
+
+.icons .social {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  background-color: #273169;
+}
+
+/* form */
+.container-form {
+  width: 40%;
+}
+
+.container-form h2{
+  color: #fff;
+}
+
+.container-form {
+  background-image: linear-gradient(to right, #bba7a7 , #565d8e);
+  padding: 4rem;
+  border-radius: 2rem;
+  box-shadow: 0px 3px 23px #ddd;
+}
+.container-form button,
+.container-form button:hover,
+.container-form button:active{
+  background-color: #273169;
 }
