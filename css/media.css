@@ -1,0 +1,166 @@
+@media (max-width: 1399.98px) {
+  .fs-3-rem {
+    font-size: 2.8rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+  }
+
+  .section-three .img-s2 {
+    width: 630px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .fs-3-rem {
+    font-size: 2.7rem;
+  }
+
+  .hero-section h1 {
+    width: 90%;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .section-three .img-s2 {
+    width: 100%;
+    min-height: 430px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .fs-3-rem {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .btn-send:hover,
+  .btn-send {
+    font-size: 1.2rem;
+  }
+
+  .video {
+    margin-right: 6rem;
+  }
+
+  .navbar-nav .nav-item,
+  .navbar button {
+    font-size: 1.2rem;
+  }
+
+  .img-s2 {
+    width: 80%;
+    margin: auto;
+    min-height: auto;
+  }
+
+  .img-s2 img {
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fs-3-rem {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .video {
+    margin-right: 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .hero-section-h {
+    height: 1000px;
+  }
+
+  .content {
+    margin-top: 0;
+  }
+
+  .section-two p {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fs-3-rem {
+    font-size: 1.8rem;
+  }
+
+  .video {
+    width: 200px;
+    height: 400px;
+  }
+
+  .hero-section-h {
+    height: 820px;
+  }
+
+  .img-s2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .section-two button,
+  .section-two button:hover,
+  .section-two button:active,
+  .section-three button,
+  .section-three button:hover,
+  .section-three button:active {
+    width: 10rem;
+    font-size: 1.3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .fs-3-rem {
+    font-size: 1.5rem;
+  }
+
+  p,
+  .section-two p,
+  .section-four p {
+    font-size: 1rem;
+  }
+
+  .video {
+    width: 160px;
+    height: 325px;
+  }
+
+  .hero-section-h {
+    height: 720px;
+  }
+
+  .navbar-nav .nav-item,
+  .navbar button {
+    font-size: 1rem;
+  }
+
+  .img-s2,
+  .section-three .img-s2 {
+    height: 300px;
+    min-height: auto;
+  }
+
+}
