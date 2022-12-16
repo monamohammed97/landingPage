@@ -156,6 +156,12 @@
     height: auto;
     margin-top: 1rem;
   }
+  .section-six h2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -181,6 +187,9 @@
     margin: auto;
   }
 
+  .section-four button,
+  .section-four button:hover,
+  .section-four button:active,
   .section-two button,
   .section-two button:hover,
   .section-two button:active,
