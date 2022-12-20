@@ -29,6 +29,10 @@
   .section-four {
     margin-top: 10rem;
   }
+
+  .container-form {
+    width: 52%;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -56,6 +60,9 @@
   /* .box-text {
     transform: translateY(-50%);
   } */
+  .container-form {
+    width: 62%;
+  }
 
 }
 
@@ -113,16 +120,33 @@
     width: 85%;
     margin-bottom: 1rem !important;
   }
+
   .card {
     width: calc(90%/2);
     margin-bottom: 2rem;
   }
-  footer .footer{
+
+  footer .footer {
     height: 50px;
   }
-  .icons .social{
+
+  .icons .social {
     width: 30px;
     height: 30px;
+  }
+
+  .container-form {
+    width: 72%;
+  }
+
+  .container-form form .input-group,
+  .container-form button:hover,
+  .container-form button {
+    height: 45px;
+  }
+
+  .container-form form {
+    padding: 3rem;
   }
 }
 
@@ -167,17 +191,46 @@
     height: auto;
     margin-top: 1rem;
   }
-  .section-six h2{
+
+  .section-six h2 {
     width: 80%;
     margin: auto;
     margin-bottom: 2rem;
     line-height: 1.7;
   }
-  
+
   .card {
     width: calc(95%/2);
   }
-  
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active,
+  .section-six button,
+  .section-six button:hover,
+  .section-six button:active,
+  .section-four button,
+  .section-four button:hover,
+  .section-four button:active,
+  .section-two button,
+  .section-two button:hover,
+  .section-two button:active,
+  .section-three button,
+  .section-three button:hover,
+  .section-three button:active {
+    height: 3rem;
+    width: 10rem;
+  }
+
+  .container-form {
+    width: 82%;
+  }
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -220,16 +273,40 @@
   .section-three .img-s2 {
     min-height: auto;
   }
+
   .card {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-  
-  
+
+  .container-form {
+    width: 90%;
+  }
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active {
+    font-size: 14px;
+  }
+
+  .container-form form .input-group,
+  .container-form button:hover,
+  .container-form button {
+    height: 40px;
+  }
+
+  .container-form form {
+    padding: 2rem;
+  }
+
 }
 
 @media (max-width: 375.98px) {
+  .border-btn {
+    padding: 0 1rem !important;
+  }
+
   .fs-3-rem {
     font-size: 1.5rem;
   }
@@ -263,13 +340,16 @@
     height: 300px;
     min-height: auto;
   }
-  footer{
+
+  footer {
     height: 60px;
   }
-  footer .footer{
+
+  footer .footer {
     height: 40px;
   }
-  .icons .social{
+
+  .icons .social {
     width: 25px;
     height: 25px;
   }
